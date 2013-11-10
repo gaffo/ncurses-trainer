@@ -1,0 +1,3 @@
+
+g++ -ggdb invaders.cpp -O0 -o invaders -lcurses -DLINUX -DDEBUG
+#clang -v -ggdb invaders.cpp -O0 -o invaders -lcurses -DLINUX -DDEBUG
